@@ -86,7 +86,7 @@ export const projects = [
     des: "All the exercises with our easy-to-use GYM App, designed to help you reach your goals efficiently.",
 
     img: "/project2.png",
-    iconLists: ["/tail.svg", "/ts.svg", "/re.svg"],
+    iconLists: ["/rapidapi.png", "/re.svg"],
     link: "https://github.com/EzequielMadrid",
   },
   {
