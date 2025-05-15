@@ -19,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Metaverse | Web3 Blockchain $****",
+    title: "Metaverse | Web3 Blockchain *",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
