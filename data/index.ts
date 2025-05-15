@@ -74,7 +74,7 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Private Corp Chat!",
+    title: "Private Corporation Chat",
     des: "Discover how to connect with your Own Community using the latest trends and cool tools.",
     img: "/project1.png",
     iconLists: ["/mongo.svg", "/express.svg", "/re.svg", "/node.svg"],
