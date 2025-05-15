@@ -1,39 +1,28 @@
 import React from "react";
-
 import MagicButton from "./ui/MagicButton";
-import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { SparklesCore } from "./ui/Sparkles";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36 relative">
-      <div>
-        <Spotlight
-          className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
-          fill="white"
-        />
-        <Spotlight
-          className="h-[20vh] w-[50vw] top-10 left-full"
-          fill="lightgreen"
-        />
-        <Spotlight
-          className="left-80 top-28 h-[70vh] w-[50vw]"
-          fill="lightgreen"
-        />
-      </div>
-      {/* background image */}
-      <div className="w-full absolute top-0 min-h-96">
-        <img src="/grid.svg" alt="grid" className="w-full h-full opacity-90 " />
-      </div>
-      {/* end background image */}
-      <div className="flex justify-center relative my-20 z-10">
-        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <p className="mb-6 uppercase tracking-widest text-md text-center max-w-90">
+    <div className="relative h-screen overflow-hidden">
+      <SparklesCore
+        id="tsparticlesfullpage"
+        background="transparent"
+        minSize={0.6}
+        maxSize={1.4}
+        particleDensity={100}
+        className="absolute inset-0 w-full h-full z-0"
+        particleColor="#ACF3A0"
+      />
+      <div className="flex justify-center items-center h-full z-10 relative">
+        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center text-white text-center">
+          <p className="mb-6 uppercase tracking-widest text-md">
             futuristic designs & innovation
           </p>
           <TextGenerateEffect
             words="Turning your thoughts into Amazing Applications - Start Today!"
-            className="mb-4 mx-auto text-3xl lg:text-5xl font-bold font-mono text-center"
+            className="mb-4 text-3xl lg:text-5xl font-bold font-mono"
           />
           <a href="#about">
             <MagicButton title="check it out" />
