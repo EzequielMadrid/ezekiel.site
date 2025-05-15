@@ -77,13 +77,7 @@ export const projects = [
     title: "Chat with Friends!",
     des: "Discover how to connect with anyone using the latest trends and cool tools.",
     img: "/project1.png",
-    iconLists: [
-      "/stream.svg",
-      "/mongo.svg",
-      "/express.svg",
-      "/re.svg",
-      "/node.svg",
-    ],
+    iconLists: ["/stream.svg", "/express.svg", "/re.svg", "/node.svg"],
     link: "https://github.com/EzequielMadrid",
   },
   {
