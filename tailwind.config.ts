@@ -1,4 +1,5 @@
-import type { Config, PluginAPI } from "tailwindcss";
+import type { Config } from "tailwindcss";
+import type { PluginAPI } from "tailwindcss/types/config";
 import svgToDataUri from "mini-svg-data-uri";
 import flattenColorPalette from "./flattenColorPalette";
 
