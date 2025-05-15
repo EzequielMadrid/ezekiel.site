@@ -19,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Metaverse | Web3 Blockchain *",
+    title: "Metaverse | Web3 Blockchain",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -50,7 +50,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Add a Chat APP to your WebSite!",
+    title: "Better communication on your Website",
     description: "Talk to Customers faster and easier.",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
