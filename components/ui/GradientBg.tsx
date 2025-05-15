@@ -3,14 +3,14 @@ import { cn } from "@/lib/utils";
 import { useEffect, useRef, useState } from "react";
 
 export const BackgroundGradientAnimation = ({
-  gradientBackgroundStart = "#536D4E", // hunter green
-  gradientBackgroundEnd = "#182116", // eerie black
-  firstColor = "34, 139, 34", // forest green
-  secondColor = "0, 128, 0", // green
-  thirdColor = "144, 238, 144", // light green
-  fourthColor = "60, 179, 113", // medium sea green
-  fifthColor = "107, 142, 35", // olive drab
-  pointerColor = "0, 255, 127", // spring green
+  gradientBackgroundStart = "rgb(108, 0, 162)",
+  gradientBackgroundEnd = "rgb(0, 17, 82)",
+  firstColor = "18, 113, 255",
+  secondColor = "221, 74, 255",
+  thirdColor = "100, 220, 255",
+  fourthColor = "200, 50, 50",
+  fifthColor = "180, 180, 50",
+  pointerColor = "140, 100, 255",
   size = "80%",
   blendingValue = "hard-light",
   children,
@@ -71,7 +71,7 @@ export const BackgroundGradientAnimation = ({
     }
 
     move();
-  }, [tgX, tgY]);
+  }, [curX, curY, tgX, tgY]);
 
   const handleMouseMove = (event: React.MouseEvent<HTMLDivElement>) => {
     if (interactiveRef.current) {
@@ -89,7 +89,7 @@ export const BackgroundGradientAnimation = ({
   return (
     <div
       className={cn(
-        "h-full w-full absolute overflow-hidden top-0 left-0 bg-[linear-gradient(40deg,var(--gradient-background-start),var(--gradient-background-end))]",
+        "w-full h-full absolute overflow-hidden top-0 left-0 bg-[linear-gradient(40deg,var(--gradient-background-start),var(--gradient-background-end))]",
         containerClassName
       )}
     >
