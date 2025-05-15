@@ -1,4 +1,5 @@
 "use client";
+import * as THREE from "three";
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Color, Fog } from "three";
