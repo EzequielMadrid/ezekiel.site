@@ -74,10 +74,10 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Chat with Friends!",
-    des: "Discover how to connect with anyone using the latest trends and cool tools.",
+    title: "Private Corp Chat!",
+    des: "Discover how to connect with your Own Community using the latest trends and cool tools.",
     img: "/project1.png",
-    iconLists: ["/stream.svg", "/express.svg", "/re.svg", "/node.svg"],
+    iconLists: ["/mongo.svg", "/express.svg", "/re.svg", "/node.svg"],
     link: "https://github.com/EzequielMadrid",
   },
   {
