@@ -160,15 +160,15 @@ export function Globe({ globeConfig, data }: WorldProps) {
 
     globeRef.current
       .arcsData(data)
-      .arcStartLat((d: Position) => d.startLat)
-      .arcStartLng((d: Position) => d.startLng)
-      .arcEndLat((d: Position) => d.endLat)
-      .arcEndLng((d: Position) => d.endLng)
-      .arcColor((d: Position) => d.color)
-      .arcAltitude((d: Position) => d.arcAlt)
+      .arcStartLat((d) => (d as Position).startLat)
+      .arcStartLng((d) => (d as Position).startLng)
+      .arcEndLat((d) => (d as Position).endLat)
+      .arcEndLng((d) => (d as Position).endLng)
+      .arcColor((d) => (d as Position).color)
+      .arcAltitude((d) => (d as Position).arcAlt)
       .arcStroke(() => [0.32, 0.28, 0.3][Math.floor(Math.random() * 3)])
       .arcDashLength(defaultProps.arcLength)
-      .arcDashInitialGap((d: Position) => d.order)
+      .arcDashInitialGap((d) => (d as Position).order)
       .arcDashGap(15)
       .arcDashAnimateTime(() => defaultProps.arcTime);
 
