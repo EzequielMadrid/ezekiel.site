@@ -51,7 +51,7 @@ export const gridItems = [
   {
     id: 5,
     title: "Better communication on your Website",
-    description: "Talk to Customers faster and easier.",
+    description: "Talk to customers faster and more easily.",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -117,6 +117,6 @@ export const socialMedia = [
   {
     id: 2,
     img: "/linkedin.svg",
-    link: "https://linkedin.com/in/tuusuario",
+    link: "https://linkedin.com/in/ezequiel-madrid-94b270144/",
   },
 ];
