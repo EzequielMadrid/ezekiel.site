@@ -24,7 +24,7 @@ const Hero = () => {
             words="Turning your thoughts into Amazing Applications - Start Today!"
             className="mb-4 text-3xl lg:text-5xl font-bold font-mono"
           />
-          <a href="#about">
+          <a href="#approach">
             <MagicButton title="check it out" />
           </a>
         </div>
