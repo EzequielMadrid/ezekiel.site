@@ -13,7 +13,7 @@ const Approach = () => {
       <Boxes />
       <h2
         className={cn(
-          "p-2 md:text-4xl text-2xl relative z-20 rounded-lg font-bold text-lime-700 bg-lime-100"
+          "p-2 relative z-20 rounded-lg text-center md:text-3xl text-xl font-bold text-lime-700 bg-lime-100"
         )}
       >
         Software System Architecture
@@ -23,8 +23,7 @@ const Approach = () => {
         built-in—not an afterthought—so your workflows stay safe while you focus
         on innovation.{" "}
         <span className="font-serif text-sm">
-          Solutions for the Future | Smart & Powered Apps | High-performance
-          Databases.
+          Solutions for the Future | Powered Apps | High-performance Databases.
         </span>
       </p>
     </div>
