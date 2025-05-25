@@ -14,8 +14,7 @@ const Projects = () => {
       </div>
       {/* end background image */}
       <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-lime-500">recent projects</span>
+        My <span className="text-lime-500">projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-2">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
