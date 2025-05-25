@@ -91,8 +91,8 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Series | Films | Documentaries",
-    des: "Stream your favorite movies and shows anytime, anywhere, with a seamless, personalized viewing experience.",
+    title: "Spotify Clone",
+    des: "Enjoy your favorite lyrics, songs and artists anytime, anywhere, with a seamless, personalized viewing experience.",
     img: "/project3.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/node.svg"],
     link: "https://github.com/EzequielMadrid",
