@@ -86,8 +86,8 @@ export const projects = [
     des: "All the exercises with our easy-to-use GYM App, designed to help you reach your goals efficiently.",
 
     img: "/project2.png",
-    iconLists: ["/rapidapi.png", "/re.svg"],
-    link: "https://github.com/EzequielMadrid",
+    iconLists: ["/rapidapi.png", "/re.svg", "/three.svg", "/tail.svg"],
+    link: "https://familyfitnessclub.netlify.app/",
   },
   {
     id: 3,
