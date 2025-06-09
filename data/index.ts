@@ -77,8 +77,14 @@ export const projects = [
     title: "Private Corporation Chat",
     des: "Discover how to connect with your Own Community using the latest trends and cool tools.",
     img: "/project1.png",
-    iconLists: ["/mongo.svg", "/express.svg", "/re.svg", "/node.svg"],
-    link: "https://github.com/EzequielMadrid",
+    iconLists: [
+      "/mongo.svg",
+      "/express.svg",
+      "/re.svg",
+      "/node.svg",
+      "/socket.svg",
+    ],
+    link: "https://rooms-tq04.onrender.com",
   },
   {
     id: 2,
@@ -86,7 +92,7 @@ export const projects = [
     des: "All the exercises with our easy-to-use GYM App, designed to help you reach your goals efficiently.",
 
     img: "/project2.png",
-    iconLists: ["/rapidapi.png", "/re.svg", "/three.svg", "/tail.svg"],
+    iconLists: ["/rapidapi.png", "/re.svg", "/tail.svg"],
     link: "https://familyfitnessclub.netlify.app/",
   },
   {
