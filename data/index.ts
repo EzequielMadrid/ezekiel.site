@@ -84,7 +84,7 @@ export const projects = [
       "/node.svg",
       "/socket.svg",
     ],
-    link: "https://rooms-tq04.onrender.com",
+    link: "https://github.com/EzequielMadrid/rooms",
   },
   {
     id: 2,
@@ -93,7 +93,7 @@ export const projects = [
 
     img: "/project2.png",
     iconLists: ["/rapidapi.png", "/re.svg", "/tail.svg"],
-    link: "https://familyfitnessclub.netlify.app/",
+    link: "https://github.com/EzequielMadrid/gym-workout",
   },
   {
     id: 3,
