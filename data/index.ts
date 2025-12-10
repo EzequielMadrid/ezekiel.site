@@ -88,20 +88,20 @@ export const projects = [
   },
   {
     id: 2,
+    title: "InterMinisterial Forum",
+    des: "APP developed to manage and display statistics, teams, players and results of the Interministerial Football Tournament, in both its male and female categories.",
+    img: "/project3.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/node.svg"],
+    link: "https://github.com/EzequielMadrid/InterMinisterial",
+  },
+  {
+    id: 3,
     title: "Easy Workout",
     des: "All the exercises with our easy-to-use GYM App, designed to help you reach your goals efficiently.",
 
     img: "/project2.png",
     iconLists: ["/rapidapi.png", "/re.svg", "/tail.svg"],
     link: "https://github.com/EzequielMadrid/gym-workout",
-  },
-  {
-    id: 3,
-    title: "Spotify Clone",
-    des: "Enjoy your favorite lyrics, songs and artists anytime, anywhere, with a seamless, personalized viewing experience.",
-    img: "/project3.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/node.svg"],
-    link: "https://github.com/EzequielMadrid",
   },
   {
     id: 4,
